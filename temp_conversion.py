@@ -38,9 +38,9 @@ def hotter_temp():
     celsius_temp = 30.2
     fahrenheit_temp = (85.1 - 32) * 5/9
     if celsius_temp > fahrenheit_temp:
-        print(f'{celsius_temp} degrees celsius is hotter.')
+        print(f'{celsius_temp}')
     elif fahrenheit_temp > celsius_temp:
-        print(f'{fahrenheit_temp} degrees fahrenheit is hotter.')
+        print(f'{fahrenheit_temp}')
     else:
         print('Both temperatures are the same.')
 
